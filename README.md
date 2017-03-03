@@ -9,8 +9,9 @@ JAVA_HOME correspond au répertoire d'installation du JDK.
 MAVEN_HOME correspond au répertoire d'installation de Maven.
 PATH = %JAVA_HOME%\bin;%MAVEN_HOME%\bin;%PATH%
 
-3) Compiler le programme avec la commande :
+3) Compiler le programme avec la commande :  
 mvn compile
 
-4) Lancer le programme avec la commande :
+4) Lancer le programme avec la commande :        
 mvn -q exec:java
+  
